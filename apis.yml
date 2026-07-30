@@ -1,19 +1,49 @@
 aid: lih-invest
-name: lih-invest
-description: lih-invest is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: LIH Healthcare (长和医疗)
+description: 'Beijing Changhe International Medical Investment Management Co., Ltd. — operating as LIH
+  Healthcare (长和医疗) — is a Chinese rehabilitation-medicine group that invests in, manages, and operates
+  rehabilitation hospitals and outpatient clinics. The company imports international rehabilitation techniques,
+  service models, and management practices and adapts them to the Chinese market across pediatric developmental
+  and behavioral rehabilitation, cardiopulmonary and critical-care rehabilitation, pain rehabilitation,
+  neurological rehabilitation, and bone and joint rehabilitation. Its three business models are building
+  and investing in high-standard rehabilitation hospitals and clinics, co-operating rehabilitation-medicine
+  departments inside existing general hospitals, and selling systematized rehabilitation service solutions
+  (planning, clinical pathways, operations, equipment, IT consulting, and staff training) to hospitals.
+  Facilities include Beijing Changhe Dayun Pediatric Clinic, Shanghai and Shenzhen pediatric rehabilitation
+  outpatient centers, and Kunming Changhe Tiancheng Rehabilitation Hospital. It is a portfolio company
+  of Qiming Venture Partners. LIH Healthcare publishes no public developer program, API, or SDK — this
+  profile carries identity and domain-security data only.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.lih.pub/0/lih-invest/2021/10/21/103838.70b07a83e704f6b05873b0e3736f97090/1.png
 url: https://raw.githubusercontent.com/api-evangelist/lih-invest/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - qiming
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-developer-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Healthcare
+- Rehabilitation
+- Hospitals
+- Medical Services
+- Healthcare Investment
+- Pediatrics
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +52,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://lih-invest.com
+  url: https://www.lih-invest.com/
+- type: About
+  url: https://www.lih-invest.com/about/
+- type: Locations
+  url: https://www.lih-invest.com/facilities/
+- type: Team
+  url: https://www.lih-invest.com/team/
+- type: Training
+  url: https://www.lih-invest.com/training/
+- type: News
+  url: https://www.lih-invest.com/article/
+- type: Careers
+  url: https://www.lih-invest.com/joinus/
+- type: ContactEmail
+  url: mailto:hr@lih-invest.com
+- type: DomainSecurity
+  url: security/lih-invest-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
