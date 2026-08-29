@@ -13,6 +13,17 @@ description: 'Beijing Changhe International Medical Investment Management Co., L
   outpatient centers, and Kunming Changhe Tiancheng Rehabilitation Hospital. It is a portfolio company
   of Qiming Venture Partners. LIH Healthcare publishes no public developer program, API, or SDK — this
   profile carries identity and domain-security data only.'
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
