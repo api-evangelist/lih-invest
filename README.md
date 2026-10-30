@@ -64,22 +64,79 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Beijing Changhe International Medical Investment Management Co., Ltd. — operating as LIH Healthcare
-(长和医疗) — is a Chinese rehabilitation-medicine group that invests in, manages, and operates
-rehabilitation hospitals and outpatient clinics, importing international rehabilitation techniques,
-service models, and management practices into the Chinese market.
+Beijing Changhe International Medical Investment Management Co., Ltd. — operating as LIH Healthcare (长和医疗) — is a Chinese rehabilitation-medicine group that invests in, manages, and operates rehabilitation hospitals and outpatient clinics. The company imports international rehabilitation techniques, service models, and management practices and adapts them to the Chinese market across pediatric developmental and behavioral rehabilitation, cardiopulmonary and critical-care rehabilitation, pain rehabilitation, neurological rehabilitation, and bone and joint rehabilitation. Its three business models are building and investing in high-standard rehabilitation hospitals and clinics, co-operating rehabilitation-medicine departments inside existing general hospitals, and selling systematized rehabilitation service solutions (planning, clinical pathways, operations, equipment, IT consulting, and staff training) to hospitals. Facilities include Beijing Changhe Dayun Pediatric Clinic, Shanghai and Shenzhen pediatric rehabilitation outpatient centers, and Kunming Changhe Tiancheng Rehabilitation Hospital. It is a portfolio company of Qiming Venture Partners. LIH Healthcare publishes no public developer program, API, or SDK — this profile carries identity and domain-security data only.
 
-Facilities include Beijing Changhe Dayun Pediatric Clinic, Shanghai and Shenzhen pediatric
-rehabilitation outpatient centers, and Kunming Changhe Tiancheng Rehabilitation Hospital.
+**Areas:** Company · Healthcare · Rehabilitation · Hospitals · Medical Services · Healthcare Investment · Pediatrics · China
 
-Website: https://www.lih-invest.com/ — Backed by: qiming
+## LIH Healthcare (长和医疗) on APIs.io
 
-## API surface
+Everything profiled for LIH Healthcare (长和医疗) is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lih-invest/](https://apis.io/providers/lih-invest/)** — or go straight to one of the APIs or properties below.
 
-Enrichment run 2026-07-19 found **no public developer surface**: no developer portal, API
-documentation, OpenAPI/AsyncAPI spec, SDK or package-registry presence (npm / PyPI / GitHub), no
-`/.well-known/` endpoints, no `llms.txt`, no vulnerability-disclosure program, and no trust center.
-This repo therefore carries identity and domain-security data only.
+### Published properties
 
-- `apis.yml` — company identity and website properties
-- `security/lih-invest-domain-security.yml` — probed TLS / DNSSEC / CAA / SPF / DMARC posture
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Lih Invest Domain Security](https://apis.io/security/lih-invest/lih-invest-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.lih-invest.com/)
+
+## API Evangelist rating
+
+**Kin Score 3.8** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 49.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 4.7** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/lih-invest/](https://apis.io/providers/lih-invest/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for LIH Healthcare (长和医疗): the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lih-invest/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
